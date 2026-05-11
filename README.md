@@ -44,7 +44,7 @@ graph TB
             ch1["Ch 1: Basics ✅"]
             ch2["Ch 2: JS Concepts"]
             ch3["Ch 3: Identifiers & Literals"]
-            ch4["Ch 4: Operators"]
+            ch4["Ch 4: Literals"]
             ch5["Ch 5: If / Else"]
             ch6["Ch 6: Switch"]
             ch7["Ch 7: Loops"]
@@ -107,7 +107,15 @@ LearnPlaywrightBatch2x/
 │
 ├── chapter_02_Javascript_Concepts/     🚧 var / let / const & hoisting
 ├── chapter_03_Identifier_Literals/     🚧 Identifiers, literals, equality
+├── chapter_04_Literals/                 ✅ Literal examples and var/let/const demos
+│   ├── 01_var_declaration.js           # var declaration examples
+│   ├── 02_var_functioncall.js          # variable use in functions
+│   ├── 03_vardeclaration_localscope.js # local scope behavior
+│   ├── 04_let_declaration.js           # let declaration behavior
+│   ├── 05_let_functionscope.js         # function scope with let
+│   └── 06_Hoisting.js                  # hoisting with var/let
 │
+├── README.cmd                          🛠️ Windows command helper
 └── README.md                           👋 You are here
 ```
 
@@ -130,8 +138,8 @@ LearnPlaywrightBatch2x/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/PramodDutta/LearnPlaywrightBatch2x.git
-cd LearnPlaywrightBatch2x
+git clone https://github.com/poojashreejagadeeshan/Learn_Playwright2x_Batch.git
+cd Learn_Playwright2x_Batch
 
 # 2. Verify your setup
 node chapter_01_Basics/03_JS_Verify_Setup.js
@@ -186,7 +194,7 @@ journey
 |:----:|-------|---------:|---------|
 | 1 | JS Basics & Setup | Ch 1 | Run Node, write first JS |
 | 2 | Variables & Hoisting | Ch 2 | Master `var`/`let`/`const` |
-| 3 | Identifiers, Literals, Operators | Ch 3–4 | Read/write any expression |
+| 3 | Identifiers & Literals | Ch 3–4 | Read/write any expression |
 | 4 | Control Flow | Ch 5–7 | If/else, switch, loops |
 | 5 | Arrays & Functions | Ch 8–9 | Manipulate data confidently |
 | 6 | Strings & Objects | Ch 10–11 | Use JS data structures |

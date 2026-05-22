@@ -1,0 +1,9 @@
+let value = '5';
+switch (value) {
+    case 5:
+        console.log('Value 5 matched');
+        break;
+    case "5":
+        console.log("String '5' matched");
+        break;
+}

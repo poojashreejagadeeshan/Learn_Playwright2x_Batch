@@ -17,3 +17,10 @@ console.log("------------");
 tests.forEach((tests, index) => {
     console.log(tests, index)
 })
+
+console.log("------------");
+
+let studs = ["abi", "ramu", "dev", "karna"];
+for (let stud in studs) {
+    console.log(stud, "->", studs[stud]);
+}

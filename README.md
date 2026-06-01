@@ -99,22 +99,32 @@ graph TB
 
 ```
 LearnPlaywrightBatch2x/
-├── chapter_01_Basics/                  ✅ Hello World, env setup, hot code
+├── Chapter_01_Basics/                  ✅ Hello World, env setup, hot code
 │   ├── 01_Basics.js                    # First console.log program
-│   ├── 02_JS.js                        # Variables & a simple loop
+│   ├── 02_checkversion.js              # Environment/version check helper
 │   ├── 03_JS_Verify_Setup.js           # Verify Node.js/OS/arch
 │   └── 04_HotCode.js                   # JIT & "hot" code paths
 │
 ├── chapter_02_Javascript_Concepts/     🚧 var / let / const & hoisting
 ├── chapter_03_Identifier_Literals/     🚧 Identifiers, literals, equality
-├── chapter_04_Literals/                 ✅ Literal examples and var/let/const demos
-│   ├── 01_var_declaration.js           # var declaration examples
-│   ├── 02_var_functioncall.js          # variable use in functions
-│   ├── 03_vardeclaration_localscope.js # local scope behavior
-│   ├── 04_let_declaration.js           # let declaration behavior
-│   ├── 05_let_functionscope.js         # function scope with let
-│   └── 06_Hoisting.js                  # hoisting with var/let
+├── chapter_04_Literals/                ✅ Literal examples and var/let/const demos
+│   ├── 12_var_declaration.js
+│   ├── 13_var_functioncall.js
+│   ├── 14_localscope.js
+│   ├── 14_vardeclaration.js
+│   ├── 15_let_declaration.js
+│   ├── 16_Hoisting.js
+│   ├── 17_let_functionscope.js
+│   └── 18_important_junior_QA.js
 │
+├── chapter_05_Literal/
+├── chapter_06_operators/
+├── chapter_07_If_Else/
+├── chapter_08_Switch/
+├── chapter_09_UserInput/
+├── chapter_10_For_loops/
+├── chapter_11_Arrays/
+├── Javascript_coding_test_part1/
 ├── README.cmd                          🛠️ Windows command helper
 └── README.md                           👋 You are here
 ```

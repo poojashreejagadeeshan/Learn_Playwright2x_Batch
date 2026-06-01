@@ -4,3 +4,6 @@ const greet = function (name) {
 
 let res = greet("priya");
 console.log(res);
+
+console.log("--------");
+

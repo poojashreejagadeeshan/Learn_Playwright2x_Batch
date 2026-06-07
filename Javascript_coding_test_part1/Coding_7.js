@@ -13,6 +13,9 @@ function summarizeJsBasicsResults(results) {
     return summary;
 }
 
+let result = summarizeJsBasicsResults(["login-pass", "api-fail", "profile-skip"]);
+console.log(result);
+
 // Input: summarizeJsBasicsResults(["login-pass","api-fail","profile-skip"])
 
 // Expected: {"total":3,"passed":1,"failed":1,"skipped":1}

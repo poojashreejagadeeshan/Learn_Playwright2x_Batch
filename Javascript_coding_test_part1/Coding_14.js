@@ -4,7 +4,11 @@ function buildJsBasicsChecklist(items) {
     });
 }
 
-buildJsBasicsChecklist(["Install Node", "Create GitHub repo"])
+let r = buildJsBasicsChecklist(["Install Node", "Create GitHub repo"]);
+console.log(r);
+
+let t = buildJsBasicsChecklist(["Practice switch", " ", "Push code"]);
+console.log(t);
 
 
 // Case 1

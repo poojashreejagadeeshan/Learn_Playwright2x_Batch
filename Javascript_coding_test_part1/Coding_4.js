@@ -9,3 +9,6 @@ function getJsBasicsKeywordMeaning(keyword) {
     }
     return mean[keyword];
 }
+
+let a = getJsBasicsKeywordMeaning(NODE);
+console.log(a);

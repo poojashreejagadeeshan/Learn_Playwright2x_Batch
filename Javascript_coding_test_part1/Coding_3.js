@@ -13,4 +13,5 @@ function classifyJsBasicsScore(score) {
     }
 }
 
-classifyJsBasicsScore(90);
+let d = classifyJsBasicsScore(55);
+console.log(d);

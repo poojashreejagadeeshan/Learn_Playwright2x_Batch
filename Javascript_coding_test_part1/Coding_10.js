@@ -4,5 +4,7 @@ function findFirstCriticalJsBasicsBug(bugs) {
     return criticalBug ? criticalBug.title : null;
 }
 
-findFirstCriticalJsBasicsBug([{ "title": "Spacing issue", "severity": "low" }]);
-findFirstCriticalJsBasicsBug([{ "title": "Typo", "severity": "low" }, { "title": "Login crash", "severity": "critical" }])
+let s = findFirstCriticalJsBasicsBug([{ "title": "Spacing issue", "severity": "low" }]);
+console.log(s);
+let r = findFirstCriticalJsBasicsBug([{ "title": "Typo", "severity": "low" }, { "title": "Login crash", "severity": "critical" }]);
+console.log(r);

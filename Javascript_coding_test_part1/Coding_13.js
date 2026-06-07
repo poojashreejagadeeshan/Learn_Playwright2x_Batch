@@ -7,6 +7,9 @@ function checkJsBasicsReadinessGate(hasSetup, hasPractice, hasNotes) {
     }
 }
 
+let c = checkJsBasicsReadinessGate(true, false, true);
+console.log(c);
+
 // Case 1
 // Input: checkJsBasicsReadinessGate(true, true, true)
 // Expected: "READY"

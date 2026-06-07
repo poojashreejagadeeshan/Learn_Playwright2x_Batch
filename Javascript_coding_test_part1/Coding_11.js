@@ -25,3 +25,6 @@ function summarizeJSBasicsMatrix(matrix) {
         failedCases: failedCases
     };
 }
+
+let d = summarizeJSBasicsMatrix(["login-pass", "api-fail", "profile-skip"]);
+console.log(d);

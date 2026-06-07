@@ -5,6 +5,9 @@ function mergeJsBasicsConfig(defaultConfig, overrideConfig) {
     };
 }
 
+let res = mergeJsBasicsConfig({ "retries": 1, "env": "dev" }, { "retries": 3 });
+console.log(res);
+
 // Case 1
 // Input: mergeJsBasicsConfig({"retries":1,"env":"dev"}, {"retries":3})
 

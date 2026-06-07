@@ -2,5 +2,7 @@ function createUniqueJsBasicsTags(tags) {
     const uniqueTags = [...new Set(tags.map(tag => tag.toLowerCase()))];
     return uniqueTags;
 }
-createUniqueJsBasicsTags([" Smoke ", "smoke", "Regression"])
-createUniqueJsBasicsTags(["", " API ", " ", "api"])
+let b = createUniqueJsBasicsTags([" Smoke ", "smoke", "Regression"])
+console.log(b);
+let s = createUniqueJsBasicsTags(["", " API ", " ", "api"])
+console.log(s);

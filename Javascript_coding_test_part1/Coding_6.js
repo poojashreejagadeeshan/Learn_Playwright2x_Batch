@@ -1,4 +1,5 @@
 function countPassingJsBasicsChecks(tasks) {
     return tasks.filter(task => task.endsWith("-pass")).length;
 }
-countPassingJsBasicsChecks(["login-pass", "api-fail", "logout-pass"])
+let u = countPassingJsBasicsChecks(["login-pass", "api-fail", "logout-pass"])
+console.log(u);
